@@ -78,8 +78,9 @@ main div h6 {
 }
 #img {
     clear: both;
-    width: 100%;
+    max-width: 100%;
     padding:0px ;
+    box-sizing: border-box;
 }
 
 article p {
@@ -90,10 +91,63 @@ article p {
 .list {
     clear: both;
     padding-top: 40px;
-    width: 100%;
-    position: relative;
+    width:100%;
+   position: relative;
 }
 #img2{
     max-width: 100%;
     padding: 0%;
+    display: inline-block;
+}
+
+#list1{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    
+}
+#list2{
+    position: absolute;
+    right:25%;
+    top:20%;
+    
+}
+form fieldset label {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(56, 46, 19);
+    font-weight: lighter;
+    
+}
+form fieldset{
+    border: none;
+}
+.float1 {
+    float:left;
+   
+    width: 50%;
+}
+.float2{
+    float: right;
+    padding-top: 60px;
+    width: 40%;
+    margin-right: 0%;
+}
+.design {
+    display: inline-block;
+    width: 20%;
+}
+main div h4{
+    display: inline-block;
+    width: 30%;
+}
+button{
+    padding: 20px;
+}
+footer{
+    clear: both;
+    margin-top: 20%;
+}
+footer p {
+    color: grey;
+    text-align: center;
 }
