@@ -21,6 +21,7 @@ div h1 {
     width:30%;
   display: inline-block;
   margin-bottom: 0%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 div image{
     display: inline-block;
@@ -79,4 +80,20 @@ main div h6 {
     clear: both;
     width: 100%;
     padding:0px ;
+}
+
+article p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: rgb(48, 46, 46);
+}
+.list {
+    clear: both;
+    padding-top: 40px;
+    width: 100%;
+    position: relative;
+}
+#img2{
+    max-width: 100%;
+    padding: 0%;
 }
